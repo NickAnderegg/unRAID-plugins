@@ -2,8 +2,8 @@
 
 <!DOCTYPE PLUGIN [
 <!ENTITY name      "NerdPack">
-<!ENTITY author    "dmacias72">
-<!ENTITY version   "2017.06.17">
+<!ENTITY author    "nickanderegg">
+<!ENTITY version   "2017.06.22">
 <!ENTITY launch    "Settings/&name;">
 <!ENTITY gitURL    "https://raw.githubusercontent.com/&author;/unRAID-&name;/master">
 <!ENTITY pluginURL "&gitURL;/plugin/&name;.plg">
@@ -17,6 +17,10 @@
 
 <CHANGES>
 ##&name;
+###2017.06.22
+- add man 1.6
+- add man-pages 4.10
+- add groff 1.22.3
 ###2017.06.17
 - combine delete and uninstall switch
 - add cleanup of old packages
